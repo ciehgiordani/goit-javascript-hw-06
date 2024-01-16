@@ -23,7 +23,7 @@ const validTextLength = () => {
 // textInput.addEventListener("input", (event) => {
 //   textInput.textContent = event.currentTarget.value;
 //   console.log(textInput.value.length);
-textInput.addEventListener("focus", () => {
+textInput.addEventListener("blur", () => {
   if (textInput.value.length == allowedCount) {
     console.log(textInput.value.length == allowedCount),
       validTextLength();

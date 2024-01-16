@@ -9,8 +9,8 @@ const changeColor = () => {
   const newColor = getRandomHexColor();
   body.style.backgroundColor = newColor
   const wordColor = document.querySelector('.color')
-  wordColor.textContent = newColor;
-  wordColor.style.fontstyle = 'bold'1
+  wordColor.textContent = newColor
+  wordColor.style.fontstyle = 'bold'
   console.log(newColor)
 }
 button.addEventListener('click', changeColor)
